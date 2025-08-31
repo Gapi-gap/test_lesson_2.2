@@ -2,16 +2,16 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        int Balance = 100;
+        int balance = 100;
 
-        int NewBalance = 200;
-        int Result;
+        int newBalance = 200;
+        int result;
         if (NewBalance >= 1000) {
-            Result = Balance + NewBalance + (NewBalance / 100);
+            result = balance + newBalance + (newBalance / 100);
         } else {
-            Result = Balance + NewBalance;
+            result = balance + newBalance;
 
         }
-        System.out.println((Result));
+        System.out.println((result));
     }
 }
